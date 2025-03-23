@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,76 +8,90 @@
     <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap" rel="stylesheet">
-<style>
-    .garamond{
-        font-family: "EB Garamond", serif;
-    }
-    .bike{
-        color: #B68C5A;
-    }
-</style>
-</head>
-<body class="garamond">
-   
-   <header>
-    <div class="navbar bg-base-100 shadow-sm">
-        <div class="navbar-start">
-          <div class="dropdown">
-            <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
-              <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"> <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /> </svg>
-            </div>
-            <ul
-              tabindex="0"
-              class="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow">
-             <li><a href="">Home</a></li>
-             <li><a href="">Services</a></li>
-             <li><a href="">Cases</a></li>
-             <li><a href="">Blog</a></li>
-             <li><a href="">Contact Us</a></li>
-            </ul>
-          </div>
-          <div class="flex place-items-center">
-            <img class="w-10 lg:w-15" src="images/business.png" alt="">
-            <a class="btn btn-ghost font-bold text-xl lg:text-4xl">Justice</a>
-          </div>
-         
-        </div>
-        <div class="navbar-center hidden lg:flex">
-          <ul class="menu menu-horizontal px-1 gap-10  font-bold">
-            <li><a  href="">Home</a></li>
-             <li><a href="">Services</a></li>
-             <li><a href="">Cases</a></li>
-             <li><a href="">Blog</a></li>
-             <li><a href="">Contact Us</a></li>
-           
-          </ul>
-        </div>
-        <div class="navbar-end">
-            <button class="btn bg-[#B68C5A] text-white">Free Consultation</button>
-        </div>
-      </div>
-      <div class="bg-cover bg-no-repeat bg-center  w-full mx-auto "
-      style="background-image: url('images/banner.png'); ">
-        <div class=" h-150 text-center mx-auto py-40 text-white">
-            <h1 class=" font-bold text-4xl lg:text-6xl mb-6  ">We Provide Effective <br> Legal Solutions</h1>
-            <p class="text-[#E7E7E7] mb-6">There are many variations of passages of Lorem Ipsum available,<br> but the majority have suffered alteration in some form,by injected humour.</p>
-            
-            <label class="input text-black text-xl "> 
-                <svg class="h-[1em] opacity-100" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><g stroke-linejoin="round" stroke-linecap="round" stroke-width="2.5" fill="none" stroke="currentColor"><circle cx="11" cy="11" r="8"></circle><path d="m21 21-4.3-4.3"></path></g></svg>
-                <input type="search" class="" placeholder="Search your services" />
-                <kbd class="kbd kbd-sm">⌘</kbd>
-                <kbd class="kbd kbd-sm">K</kbd>
-              </label>
-              <button class="btn bg-[#B68C5A] text-white border-none text-xl">Search</button>
-            <div>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap"
+        rel="stylesheet">
+    <style>
+        .garamond {
+            font-family: "EB Garamond", serif;
+        }
 
-                
+        .bike {
+            color: #B68C5A;
+        }
+    </style>
+</head>
+
+<body class="garamond">
+
+    <header>
+        <div class="navbar bg-base-100 shadow-sm">
+            <div class="navbar-start">
+                <div class="dropdown">
+                    <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                            stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M4 6h16M4 12h8m-8 6h16" />
+                        </svg>
+                    </div>
+                    <ul tabindex="0"
+                        class="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow">
+                        <li><a href="">Home</a></li>
+                        <li><a href="">Services</a></li>
+                        <li><a href="">Cases</a></li>
+                        <li><a href="">Blog</a></li>
+                        <li><a href="">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="flex place-items-center">
+                    <img class="w-10 lg:w-15" src="images/business.png" alt="">
+                    <a class="btn btn-ghost font-bold text-xl lg:text-4xl">Justice</a>
+                </div>
+
+            </div>
+            <div class="navbar-center hidden lg:flex">
+                <ul class="menu menu-horizontal px-1 gap-10  font-bold">
+                    <li><a href="">Home</a></li>
+                    <li><a href="">Services</a></li>
+                    <li><a href="">Cases</a></li>
+                    <li><a href="">Blog</a></li>
+                    <li><a href="">Contact Us</a></li>
+
+                </ul>
+            </div>
+            <div class="navbar-end">
+                <button class="btn bg-[#B68C5A] text-white">Free Consultation</button>
             </div>
         </div>
-        
-      </div>
-   </header>
+        <div class="bg-cover bg-no-repeat bg-center  w-full mx-auto "
+            style="background-image: url('images/banner.png'); ">
+            <div class=" h-150 text-center mx-auto py-40 text-white flex flex-col gap-1">
+                <h1 class=" font-bold text-4xl lg:text-6xl mb-6  ">We Provide Effective <br> Legal Solutions</h1>
+                <p class="text-[#E7E7E7] mb-6">There are many variations of passages of Lorem Ipsum available, but
+                    the majority have suffered alteration in some form,by injected humour.</p>
+
+                <div class="flex gap-5 place-content-center">
+                    <label class="input text-black text-xl  ">
+                        <svg class="h-[1em] opacity-100" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                            <g stroke-linejoin="round" stroke-linecap="round" stroke-width="2.5" fill="none"
+                                stroke="currentColor">
+                                <circle cx="11" cy="11" r="8"></circle>
+                                <path d="m21 21-4.3-4.3"></path>
+                            </g>
+                        </svg>
+                        <input type="search" class="" placeholder="Search your services" />
+                        <kbd class="kbd kbd-sm">⌘</kbd>
+                        <kbd class="kbd kbd-sm">K</kbd>
+                    </label>
+                    <div>
+                        <button class="btn bg-[#B68C5A] text-white border-none text-xl">Search</button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </header>
 </body>
+
 </html>
